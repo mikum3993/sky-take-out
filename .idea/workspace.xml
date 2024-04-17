@@ -1,7 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d439c69-ce9a-4c43-a9d0-249637a2c734" name="Changes" comment="" />
+    <list default="true" id="6d439c69-ce9a-4c43-a9d0-249637a2c734" name="Changes" comment="commit;">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/SkyCommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/constant/AutoFillConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/constant/JwtClaimsConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/constant/MessageConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/constant/PasswordConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/constant/StatusConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/context/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/enumeration/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/AccountLockedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/AddressBookBusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/DeletionNotAllowedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/LoginFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/OrderBusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/PasswordEditFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/PasswordErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/SetmealEnableFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/ShoppingCartBusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/exception/UserNotLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/json/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/properties/AliOssProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/properties/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/properties/WeChatProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/result/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/utils/AliOssUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/utils/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/java/com/sky/utils/WeChatPayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-common/src/test/java/skycommon/SkyCommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/SkyPojoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/CategoryPageQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/DataOverViewQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/DishDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/DishPageQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/EmployeeLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/EmployeePageQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/GoodsSalesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/OrdersCancelDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/OrdersConfirmDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/OrdersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/OrdersPageQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/OrdersPaymentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/OrdersRejectionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/OrdersSubmitDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/PasswordEditDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/SetmealDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/SetmealPageQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/ShoppingCartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/dto/UserLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/BusinessDataVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/DishItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/DishOverViewVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/DishVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/EmployeeLoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/OrderOverViewVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/OrderPaymentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/OrderReportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/OrderStatisticsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/OrderSubmitVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/SalesTop10ReportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/SetmealOverViewVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/SetmealVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/TurnoverReportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/UserLoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/vo/UserReportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-pojo/src/test/java/skypojo/SkyPojoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/SkyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/annotaion/AutoFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/aspect/AutoFillAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/config/OssConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/config/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/config/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/admin/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/user/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/user/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/user/SetmealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/user/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/interceptor/JwtTokenAdminInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/interceptor/JwtTokenUserInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishFlavorsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/UserServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/UserServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/application-env.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/DishFlavorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/DishMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/SetmealDishMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/SetmealMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/test/java/skyserver/SkyServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/test/java/skyserver/httpClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-pojo/src/main/java/com/sky/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sky-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sky-server/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +156,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2fClbMfO3WCFay2zv8HPrPyIjIx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,14 +173,37 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "D:/ITstudy/proguramingstudy/GitStudy/gitdemo",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_opened_file_path": "D:/ITstudy/Demo-object/sky-take-out/sky-take-out/sky-server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15039062",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ITstudy\Demo-object\sky-take-out\sky-take-out\sky-server" />
+      <recent name="D:\ITstudy\Demo-object\sky-take-out\sky-take-out\sky-pojo" />
+      <recent name="D:\ITstudy\Demo-object\sky-take-out\sky-take-out\sky-common" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="SkyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sky-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sky.SkyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="lua.exe" />
       <option name="file" value="" />
@@ -53,7 +223,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713313013059</updated>
+      <workItem from="1713313014996" duration="942000" />
     </task>
+    <task id="LOCAL-00001" summary="commit;">
+      <created>1713313220932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713313220932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit;" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit;" />
   </component>
 </project>

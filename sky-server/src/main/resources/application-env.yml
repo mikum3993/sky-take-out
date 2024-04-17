@@ -1,0 +1,11 @@
+#sky:
+#  wechat:
+#    appid: 申请微信小程序可获得
+#    secret: 申请微信小程序可获得
+#    mchid: 商户号
+#    mchSerialNo:
+#    privateKeyFilePath:
+#    apiV3Key:
+#    weChatPayCertFilePath:
+#    notifyUrl:
+#    refundNotifyUrl:
