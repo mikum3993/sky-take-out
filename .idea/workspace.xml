@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d439c69-ce9a-4c43-a9d0-249637a2c734" name="Changes" comment="commit;">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/user/ShoppingCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/ShoppingCartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/ShoppingCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/ShoppingCartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/controller/user/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/java/com/sky/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky-server/src/main/resources/mapper/AddressBookMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
@@ -99,7 +97,7 @@
     "project.structure.proportion": "0.15039062",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "spring.configuration.checksum": "3a5811271dde3cfe220c3af60d527556",
+    "spring.configuration.checksum": "4ddfb4cfaaf4083a428335e54394b00c",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -114,7 +112,7 @@
       <recent name="D:\ITstudy\Demo-object\sky-take-out\sky-take-out\sky-server\src\main\java\com\sky\mapper" />
       <recent name="D:\ITstudy\Demo-object\sky-take-out\sky-take-out\sky-server\src\main\java\com\sky\service\impl" />
       <recent name="D:\ITstudy\Demo-object\sky-take-out\sky-take-out\sky-server\src\main\java\com\sky\service" />
-      <recent name="D:\ITstudy\Demo-object\sky-take-out\sky-take-out\sky-server\src\main\java\com\sky\controller\admin" />
+      <recent name="D:\ITstudy\Demo-object\sky-take-out\sky-take-out\sky-server\src\main\java\com\sky\controller\user" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SkyApplication">
@@ -152,7 +150,8 @@
       <option name="presentableId" value="Default" />
       <updated>1713313013059</updated>
       <workItem from="1713313014996" duration="1248000" />
-      <workItem from="1713354287529" duration="8872000" />
+      <workItem from="1713354287529" duration="9345000" />
+      <workItem from="1713437869754" duration="1637000" />
     </task>
     <task id="LOCAL-00001" summary="commit;">
       <created>1713313220932</created>
@@ -175,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713358902815</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit;">
+      <created>1713363377039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713363377039</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit;">
+      <created>1713363745330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713363745330</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
