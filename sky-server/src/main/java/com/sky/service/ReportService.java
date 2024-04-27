@@ -1,6 +1,7 @@
 package com.sky.service;
 
 import com.sky.vo.*;
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
@@ -33,4 +34,9 @@ public interface ReportService {
      */
     SalesTop10ReportVO getSalesTop10(LocalDate begin, LocalDate end);
 
+    /**
+     * 导出运营数据表
+     * @param response
+     */
+    void exportBusinessData(HttpServletResponse response);
 }

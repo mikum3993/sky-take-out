@@ -5,6 +5,7 @@ import com.sky.service.ReportService;
 import com.sky.vo.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -73,5 +74,12 @@ public class ReportController {
             @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate end) {
         log.info("销量排名统计:{},{}", begin, end);
         return Result.success(reportService.getSalesTop10(begin,end));
+    }
+
+    @GetMapping("/export")
+    @ApiOperation("导出运营数据表")
+    public void export(HttpServletResponse response){
+        reportService.exportBusinessData(response);
+
     }
 }
